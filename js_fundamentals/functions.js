@@ -73,6 +73,21 @@ calculateSupply(1, 100)
 // Pass the radius to the function.
 // Calculate the area based on the radius, and output "The area is NN".
 
+function calcCircumference(rad)
+{
+	circumference_circle = Math.PI * rad * 2;
+	return "The circumference is " + circumference_circle + "."
+}
+
+function calcArea(rad)
+{
+	area_circle = Math.PI * Math.pow(rad, 2);
+	return "The area is " + area_circle + "."
+}
+
+calcCircumference(5)
+calcArea(5)
+
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
