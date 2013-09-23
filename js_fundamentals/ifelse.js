@@ -7,6 +7,23 @@
 // returns whichever number is the greater (higher) number.
 // Call that function 2 times with different number pairs, and log the output to make sure it works (e.g. "The greater number of 5 and 10 is 10.").
 
+function greaterNum(num1,num2)
+{
+	if (num1 > num2)
+	{
+	return "The greater number of " + num1 + " and " + num2 + " is " + num1 +"."	
+	}
+
+	else
+	{
+	return "The greater number of " + num1 + " and " + num2 + " is " +num2 +"."	
+	}
+}
+
+greaterNum(4,9)
+greaterNum(4520,2)
+greaterNum(-5,0)
+
 // EXERCISE: The World Translator
 
 // Write a function named helloWorld that:
