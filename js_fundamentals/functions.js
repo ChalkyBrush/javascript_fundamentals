@@ -38,8 +38,6 @@ calculateAge(1812);
 calculateAge(2000);
 calculateAge(1989);
 
-
-
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
@@ -50,6 +48,17 @@ calculateAge(1989);
 // outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
 // Call that function three times, passing in different values each time.
 // Bonus: Accept floating point values for amount per day, and round the result to a round number.
+
+function calculateSupply(current_age, amt_per_day)
+{
+	var maximum_age = 115;
+	var supply = (maximum_age-current_age)* 365.25 * amt_per_day;
+	return supply
+}
+
+calculateSupply(23, 20)
+calculateSupply(114, 10)
+calculateSupply(1, 100)
 
 // EXERCISE: The Geometrizer
 
