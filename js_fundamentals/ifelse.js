@@ -37,11 +37,11 @@ function helloWorld(language)
 	{
 		return "Hallo Welt"
 	}
-	if (language=="es")
+	else if (language=="es")
 	{
 		return "Hola Munda"
 	}
-	if (language=="fr")
+	else if (language=="fr")
 	{
 		return "Bonjour Monde"
 	}
@@ -51,10 +51,10 @@ function helloWorld(language)
 	}
 }
 
-helloWorld("de")
-helloWorld("es")
-helloWorld("fr")
-helloWorld("en")
+helloWorld("de");
+helloWorld("es");
+helloWorld("fr");
+helloWorld("en");
 
 // EXERCISE: The Grade Assigner
 
@@ -62,6 +62,36 @@ helloWorld("en")
 // takes 1 argument, a number score.
 // returns a grade for the score, either "A", "B", "C", "D", or "F".
 // Call that function for a few different scores and log the result to make sure it works.
+
+function assignGrade(score)
+{
+	if (score<=49)
+	{
+		return "F"
+	}
+	else if (score<=59 && score >=50 )
+	{
+		return "D"
+	}
+	else if (score<=69 && score >=60 )
+	{
+		return "C"
+	}
+	else if (score<=79 && score >=70 )
+	{
+		return "B"
+	}
+	else
+	{
+		return "A"
+	}
+}
+
+assignGrade(40);
+assignGrade(62);
+assignGrade(75);
+assignGrade(89);
+
 
 // EXERCISE: The Pluralizer
 
@@ -71,6 +101,28 @@ helloWorld("en")
 // Call that function for a few different scores and log the result to make sure it works.
 // Bonus: Make it handle a few collective nouns like "sheep" and "geese".
 
+function pluralize(noun, number)
+{
+	if (number == 1)
+	{
+		return "" + number + " " + noun
+	}
+	else
+	{
+		if (noun == "goose")
+		{
+			return "" + number + " geese"
+		}
+		else
+		{
+		return "" + number + " " + noun +"s"
+		}
+	}
+}
 
+pluralize("cat", 5)
+pluralize("dog", 1)
+pluralize("goose", 1)
+pluralize("goose", 6)
 
 
