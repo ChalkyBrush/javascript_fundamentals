@@ -16,8 +16,6 @@ tellFortune(5, "Jerry", "International Waters", "Deck Swabber")
 tellFortune(8, "Mila", "Canada", "Lawyer")
 tellFortune(0, "Dr. Xavier", "Mars", "Metals Chemist")
 
-
-
 // EXERCISE: The Age Calculator
 
 // Forgot how old you are? Calculate it!
@@ -28,6 +26,19 @@ tellFortune(0, "Dr. Xavier", "Mars", "Metals Chemist")
 // outputs the result to the screen like so: "You are either NN or NN"
 // Call the function three times with different sets of values.
 // Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
+
+function calculateAge(birthyear)
+{
+	var currentYear = new Date().getFullYear();
+	var age = currentYear-birthyear;
+	return "They are either " + (age-1) + " or " + age +"."
+}
+
+calculateAge(1812);
+calculateAge(2000);
+calculateAge(1989);
+
+
 
 // EXERCISE: The Lifetime Supply Calculator
 
