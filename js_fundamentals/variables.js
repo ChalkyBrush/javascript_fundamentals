@@ -7,10 +7,10 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
-number_of_children = 5;
-partner_name = "Jerry";
-place = "International Waters";
-job_title = "Deck Swabber"
+var number_of_children = 5;
+var partner_name = "Jerry";
+var place = "International Waters";
+var job_title = "Deck Swabber"
 
 "You will be a " + job_title + " in " + place + ", and married to " + partner_name + " with " + number_of_children + " kids."
 
@@ -22,6 +22,12 @@ job_title = "Deck Swabber"
 // Store their birth year in a variable.
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
+
+var currentYear = new Date().getFullYear()
+var birthyear = 1812
+var age = currentYear-birthyear
+
+"They are either " + (age-1) + " or " + age +"."
 
 // EXERCISE: The Lifetime Supply Calculator
 
