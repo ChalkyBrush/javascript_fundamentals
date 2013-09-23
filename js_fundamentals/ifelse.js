@@ -31,6 +31,31 @@ greaterNum(-5,0)
 // returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
 // Call that function for each of the supported languages and log the result to make sure it works.
 
+function helloWorld(language)
+{
+	if (language=="de")
+	{
+		return "Hallo Welt"
+	}
+	if (language=="es")
+	{
+		return "Hola Munda"
+	}
+	if (language=="fr")
+	{
+		return "Bonjour Monde"
+	}
+	else
+	{
+	return "Hello World"
+	}
+}
+
+helloWorld("de")
+helloWorld("es")
+helloWorld("fr")
+helloWorld("en")
+
 // EXERCISE: The Grade Assigner
 
 // Write a function named assignGrade that:
