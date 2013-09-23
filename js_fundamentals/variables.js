@@ -7,6 +7,11 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
+number_of_children = 5;
+partner_name = "Jerry";
+location = "International Waters";
+job_title = "Deck Swabber"
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
