@@ -8,6 +8,15 @@
 // takes 4 arguments: number of children, partner's name, geographic location, job title.
 // outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 // Call that function 3 times with 3 different values for the arguments.
+function tellFortune(number_of_children, partner_name, place, job_title)
+{
+	return "You will be a " + job_title + " in " + place + ", and married to " + partner_name + " with " + number_of_children + " kids."
+}
+tellFortune(5, "Jerry", "International Waters", "Deck Swabber")
+tellFortune(8, "Mila", "Canada", "Lawyer")
+tellFortune(0, "Dr. Xavier", "Mars", "Metals Chemist")
+
+
 
 // EXERCISE: The Age Calculator
 
