@@ -9,8 +9,10 @@
 
 number_of_children = 5;
 partner_name = "Jerry";
-location = "International Waters";
+place = "International Waters";
 job_title = "Deck Swabber"
+
+"You will be a " + job_title + " in " + place + ", and married to " + partner_name + " with " + number_of_children + " kids."
 
 // EXERCISE: The Age Calculator
 
