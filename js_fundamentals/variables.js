@@ -23,9 +23,9 @@ var job_title = "Deck Swabber"
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
 
-var currentYear = new Date().getFullYear()
-var birthyear = 1812
-var age = currentYear-birthyear
+var currentYear = new Date().getFullYear();
+var birthyear = 1812;
+var age = currentYear-birthyear;
 
 "They are either " + (age-1) + " or " + age +"."
 
@@ -38,6 +38,13 @@ var age = currentYear-birthyear
 // Store an estimated amount per day (as a number).
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+var current_age = 23;
+var maximum_age = 115;
+var amt_per_day = 30
+var supply = (maximum_age-current_age)* 365.25 * 30
+
+"You will need " + supply + " to last you until the ripe old age of " + maximum_age + "."
 
 // EXERCISE: The Geometrizer
 
