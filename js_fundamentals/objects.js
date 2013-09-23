@@ -66,5 +66,26 @@ for (var i=0;i<myBooks.length;i++)
 // Create an object to store the following information about your favorite movie: title (a string), duration (a number), and stars (an array of strings).
 // Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
 
+var favMovie = {
+  title: "Gladiator",
+  duration: 112,
+  actors: ["Russel Crowe","Jaquin Phoenix"],
+}; 
+
+var actorslist ="";
+for (var i=0;i<favMovie.actors.length;i++)
+{ 
+	if (i < favMovie.actors.length - 1)
+	{
+	actorslist = actorslist + favMovie.actors[i] + ", "
+	}
+	else
+	{
+	actorslist = actorslist + favMovie.actors[i]
+	}
+}
+
+console.log(favMovie.title +" lasts for " + favMovie.duration + " minutes. Stars: " + actorslist +".")
+
 
 
