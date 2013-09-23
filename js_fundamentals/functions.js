@@ -101,3 +101,23 @@ calcArea(5)
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
 
+function cecliusToFahrenheit(degrees_celsius)
+{
+	celsius_to_f = (degrees_celsius * (9/5)) + 32;
+	return degrees_celsius + "°C is " + celsius_to_f +"°F."
+}
+
+function fahrenheitToCelsius(degrees_fahrenheit)
+{
+	fahrenheit_to_c = (degrees_fahrenheit - 32) * (5/9);
+	return degrees_fahrenheit + "°F is " + fahrenheit_to_c +"°C."
+}
+
+cecliusToFahrenheit(50);
+fahrenheitToCelsius(50);
+
+
+
+
+
+
