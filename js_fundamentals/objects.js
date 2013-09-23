@@ -13,6 +13,20 @@
 // cumin
 // cocoa
 
+var recipeCard = {
+  the_title: "Chicken a la King",
+  servings: 5,
+  ingredients: ["chicken","mushrooms","peas","milk"],
+}; 
+
+console.log(recipeCard.the_title)
+console.log("Serves: " + recipeCard.servings)
+console.log("Ingredients:")
+for (var i=1;i<=recipeCard.ingredients.length;i++)
+{ 
+console.log(recipeCard.ingredients[i-1])
+}
+
 // EXERCISE: The Reading List
 
 // Keep track of which books you read and which books you want to read!
