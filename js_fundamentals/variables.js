@@ -42,7 +42,7 @@ var age = currentYear-birthyear;
 var current_age = 23;
 var maximum_age = 115;
 var amt_per_day = 30;
-var supply = (maximum_age-current_age)* 365.25 * 30;
+var supply = (maximum_age-current_age)* 365.25 * amt_per_day;
 
 "You will need " + supply + " to last you until the ripe old age of " + maximum_age + "."
 
@@ -69,5 +69,13 @@ area_circle = Math.PI * Math.pow(rad, 2);
 // Convert it to fahrenheit and output "NN°C is NN°F".
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+
+degrees_celsius = 50;
+celsius_to_f = (degrees_celsius * (9/5)) + 32;
+degrees_celsius + "°C is " + celsius_to_f +"°F."
+
+degrees_fahrenheit = 300;
+fahrenheit_to_c = (degrees_fahrenheit - 32) * (5/9);
+degrees_fahrenheit + "°F is " + fahrenheit_to_c +"°C."
 
 
