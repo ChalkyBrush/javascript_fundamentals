@@ -41,8 +41,8 @@ var age = currentYear-birthyear;
 
 var current_age = 23;
 var maximum_age = 115;
-var amt_per_day = 30
-var supply = (maximum_age-current_age)* 365.25 * 30
+var amt_per_day = 30;
+var supply = (maximum_age-current_age)* 365.25 * 30;
 
 "You will need " + supply + " to last you until the ripe old age of " + maximum_age + "."
 
@@ -53,6 +53,13 @@ var supply = (maximum_age-current_age)* 365.25 * 30
 // Store a radius into a variable.
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
+
+rad = 20;
+
+circumference_circle = Math.PI * rad * 2;
+"The circumference is " + circumference_circle + "."
+area_circle = Math.PI * Math.pow(rad, 2);
+"The area is " + area_circle + "."
 
 // EXERCISE: The Temperature Converter
 
