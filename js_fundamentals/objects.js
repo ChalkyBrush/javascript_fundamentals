@@ -69,7 +69,7 @@ for (var i=0;i<myBooks.length;i++)
 var favMovie = {
   title: "Gladiator",
   duration: 112,
-  actors: ["Russel Crowe","Jaquin Phoenix"],
+  actors: ["Russel Crowe","Jaquin Phoenix", "Some Guy", "Darth Vader"],
 }; 
 
 var actorslist ="";

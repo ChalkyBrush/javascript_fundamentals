@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="utf-8"/>
+   <title>About Me</title>
+ </head>
+ <body>
+   <h1>About Me</h1>
+  
+   <ul>
+     <li>Nickname: <span id="nickname"></span>
+     <li>Favorites:  <span id="favorites"></span>
+     <li>Hometown: <span id="hometown"></span>
+    </ul>
+  
+  </body>
+ </html>
+
+ <script type="text/javascript"><!--
+document.getElementsByTagName("body")[0]["style"]["background-color"] = "tomato";
+document.getElementsByTagName("body")[0]["style"]["font-family"] = "Arial, sans serif";
+document.getElementById("nickname")["textContent"]="ChalkyBrush";
+document.getElementById("favorites")["textContent"]="The Moon";
+document.getElementById("hometown")["textContent"]="Oakville, Ontario";
+
+var p1 = new Image();
+p1.src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/1237287_10152423542183912_769151495_o.jpg"
+p1.style.height = "300px";
+document.body.appendChild(p1);
+//--></script>
