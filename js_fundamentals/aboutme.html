@@ -23,6 +23,10 @@ document.getElementById("nickname")["textContent"]="ChalkyBrush";
 document.getElementById("favorites")["textContent"]="The Moon";
 document.getElementById("hometown")["textContent"]="Oakville, Ontario";
 
+var list_items = document.getElementsByTagName("li");
+for(var i=0; i < list_items.length; i++){ list_items[i].Id="colorme"}
+for(var i=0; i < list_items.length; i++){ list_items[i]["style"]["color"] = "blue"; }
+
 var p1 = new Image();
 p1.src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/1237287_10152423542183912_769151495_o.jpg"
 p1.style.height = "300px";
