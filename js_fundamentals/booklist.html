@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="utf-8"/>
+   <title>Book List</title>
+ </head>
+
+
+ <body>
+   <h1> My Book List </h1>
+  </body>
+ </html>
+
+  <script type="text/javascript"><!--
+
+  var myBooks = [
+  {name: "Human Action", 
+   author: "Ludwig von Mises",
+   alreadyRead: true},
+  {name: "Harry Potter", 
+   author: "JK Rowling",
+   alreadyRead: true},
+   {name: "Pragmatic Programmer", 
+   author: "Andy Hunt, Dave Thomas",
+   alreadyRead: false},
+];
+
+function addP(name, author)
+{
+var newP = document.createElement("p")
+newP.textContent = "hola"
+
+newP.innerHTML = name + " by " + author;
+console.log("testing")
+
+document.body.appendChild(newP)
+
+}
+
+function addImg(id,bool)
+{
+var p1 = new Image();
+if (id == 0)
+{
+p1.src="http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/2FQAAOxysftRjF6S/$T2eC16R,!ygE9s7HJGnSBRjF6R09Hg~~60_35.JPG?set_id=8800005007"
+}
+if (id == 1)
+{
+p1.src="http://improbablefiction.files.wordpress.com/2011/07/8b5bf786ceb3bcf7c3bbb4636ba3de6e.jpg"
+}
+if (id == 2)
+{
+p1.src="http://mvvenrooij.nl/wp-content/uploads/2011/10/pragmatic-programmer.jpg"
+}
+p1.style.height = "200px";
+p1.style.border = "solid";
+p1.style.borderColor = "red";
+if (bool==true)
+{
+p1.style.borderColor = "green";
+}
+
+document.body.appendChild(p1);
+
+}
+
+function isRead(bool)
+{
+  p1.style.border = "solid";
+}
+
+for (var i=0;i<myBooks.length;i++)
+{
+  addP(myBooks[i].name,myBooks[i].author);
+  addImg(i,myBooks[i].alreadyRead);
+  
+}
+//--></script>

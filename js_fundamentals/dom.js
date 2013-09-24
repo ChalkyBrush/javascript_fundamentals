@@ -11,7 +11,7 @@
 // Modify the text of the button so that it says "Yahooo!" instead.
 
 
-document.getElementById('hplogo').style.background="url(http://www.experiencedmg.com/wp-content/uploads/2013/08/old-yahoo-logo.jpg)  no-repeat"
+document.getElementById('hplogo').style.backgroundImage="url(http://www.experiencedmg.com/wp-content/uploads/2013/08/old-yahoo-logo.jpg)"
 document.getElementById('gbqfba').textContent="Yahooo!";
 
 
