@@ -65,15 +65,19 @@
 // Uncheck all checkboxes using jQuery
 // Hint: you will have to select the input and can use .removeAttr
 
-$(document).ready(function() {
-	$('input').removeAttr("checked")
-});
+// $(document).ready(function() {
+// 	$('input').removeAttr("checked")
+// });
 
 
 // EXERCISE: Change Parent
 
 // Move "#child" from "#parent1" to "#parent2"
 // Hint: you can use .appendTo
+
+$(document).ready(function() {
+	$('#child').appendTo("#parent2")
+});
 
 // EXERCISE: Select A Option in A Select Box
 
