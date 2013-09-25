@@ -84,15 +84,21 @@
 // Select the second option in the selectbox by script
 // Hint: you will have to select the option and can use .eq and .attr
 
-$(document).ready(function() {
-	$('option').eq(1).attr("selected","selected");
-});
+// $(document).ready(function() {
+// 	$('option').eq(1).attr("selected","selected");
+// });
 
 
 // EXERCISE: Change Size
 
 // Make "#target" double size
 // Hint: you can use .css, .width and .height
+
+$(document).ready(function() {
+	$('div').css({
+	 width: "300px",
+	 height: "200px"})
+});
 
 // EXERCISE: Empty Elements
 // Hint: you can use .empty
