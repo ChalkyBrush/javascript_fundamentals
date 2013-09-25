@@ -12,11 +12,11 @@
 // Change the background color of '#target' by script. 
 // Hint: you can use .css
 
-$(document).ready(function() {
-	$('#target').css({
-		backgroundColor: "red"
-	})
-});
+// $(document).ready(function() {
+// 	$('#target').css({
+// 		backgroundColor: "red"
+// 	})
+// });
 
 
 // EXERCISE: Change Parent
@@ -24,15 +24,20 @@ $(document).ready(function() {
 // Change the text in the span, a child of "#target"
 // Hint: you can use .text
 
-$(document).ready(function() {
-	$('div#target').find("span").text("Changed :)");
-});
+// $(document).ready(function() {
+// 	$('div#target').find("span").text("Changed :)");
+// });
 
 
 // EXERCISE: Create Clone
 
 // Create a clone of the span in "#target" and position it under the origin.
 // Hint: you can use .clone and .insertAfter
+
+// $(document).ready(function() {
+//  $('span').clone().insertAfter('span');
+
+// });
 
 // EXERCISE: Use Filter
 
