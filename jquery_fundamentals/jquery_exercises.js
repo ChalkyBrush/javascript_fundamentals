@@ -44,6 +44,12 @@
 // Change background color of the second ".target"
 // Hint: you can use .eq and .css
 
+$(document).ready(function() {
+	$('div').eq(1).css({
+	 backgroundColor: "blue"})
+});
+
+
 // EXERCISE: Disable Buttons
 
 // Disable the button
