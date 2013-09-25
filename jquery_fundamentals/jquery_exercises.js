@@ -2,6 +2,18 @@
 
 // EXERCISE: Change Background
 
+
+
+
+$(document).ready(function() {
+	$('#target').css({
+		backgroundColor: "red"
+	})
+});
+
+//var test = $("div#target").attr("style");
+//$("div#target").attr("style",test + " background-color: rgb(50, 139, 200);");
+
 // Change the background color of '#target' by script. 
 // Hint: you can use .css
 
