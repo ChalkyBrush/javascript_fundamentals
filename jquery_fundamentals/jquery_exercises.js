@@ -116,14 +116,18 @@
 // Hint: you can use .setTimeout and alert
 
 
-$(document).ready(function() {
-	setTimeout(function(){alert("gdday")}, 1000);
-});
+// $(document).ready(function() {
+// 	setTimeout(function(){alert("gdday")}, 1000);
+// });
 
 // EXERCISE: Count
 
 // Show the number of children in an alert
 // Hint: you can use .children, .length and alert or you could use .find, .size and alert. the alert should show 5
+
+$(document).ready(function() {
+	alert($('#target').children(".child").length)
+});
 
 // EXERCISE: Animate
 
