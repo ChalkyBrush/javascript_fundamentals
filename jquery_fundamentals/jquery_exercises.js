@@ -105,15 +105,20 @@
 
 // Remove all children and text of "#target"
 
-$(document).ready(function() {
-	$('div').empty()
-});
+// $(document).ready(function() {
+// 	$('div').empty()
+// });
 
 
 // EXERCISE: Delay
 
 // Show Alert with 1 second delay (Use "setTimeout")
 // Hint: you can use .setTimeout and alert
+
+
+$(document).ready(function() {
+	setTimeout(function(){alert("gdday")}, 1000);
+});
 
 // EXERCISE: Count
 
