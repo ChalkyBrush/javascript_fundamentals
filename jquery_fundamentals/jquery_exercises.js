@@ -55,15 +55,20 @@
 // Disable the button
 // Hint: you will have to select the button and can use .attr
 
-$(document).ready(function() {
-	$('button').attr("disabled", "disabled")
-});
+// $(document).ready(function() {
+// 	$('button').attr("disabled", "disabled")
+// });
 
 
 // EXERCISE: Uncheck CheckBoxes
 
 // Uncheck all checkboxes using jQuery
 // Hint: you will have to select the input and can use .removeAttr
+
+$(document).ready(function() {
+	$('input').removeAttr("checked")
+});
+
 
 // EXERCISE: Change Parent
 
