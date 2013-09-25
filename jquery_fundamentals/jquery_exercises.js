@@ -94,16 +94,21 @@
 // Make "#target" double size
 // Hint: you can use .css, .width and .height
 
-$(document).ready(function() {
-	$('div').css({
-	 width: "300px",
-	 height: "200px"})
-});
+// $(document).ready(function() {
+// 	$('div').css({
+// 	 width: "300px",
+// 	 height: "200px"})
+// });
 
 // EXERCISE: Empty Elements
 // Hint: you can use .empty
 
 // Remove all children and text of "#target"
+
+$(document).ready(function() {
+	$('div').empty()
+});
+
 
 // EXERCISE: Delay
 
