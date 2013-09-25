@@ -44,16 +44,21 @@
 // Change background color of the second ".target"
 // Hint: you can use .eq and .css
 
-$(document).ready(function() {
-	$('div').eq(1).css({
-	 backgroundColor: "blue"})
-});
+// $(document).ready(function() {
+// 	$('div').eq(1).css({
+// 	 backgroundColor: "blue"})
+// });
 
 
 // EXERCISE: Disable Buttons
 
 // Disable the button
 // Hint: you will have to select the button and can use .attr
+
+$(document).ready(function() {
+	$('button').attr("disabled", "disabled")
+});
+
 
 // EXERCISE: Uncheck CheckBoxes
 
