@@ -5,11 +5,6 @@
 
 
 
-$(document).ready(function() {
-	$('#target').css({
-		backgroundColor: "red"
-	})
-});
 
 //var test = $("div#target").attr("style");
 //$("div#target").attr("style",test + " background-color: rgb(50, 139, 200);");
@@ -17,10 +12,22 @@ $(document).ready(function() {
 // Change the background color of '#target' by script. 
 // Hint: you can use .css
 
+$(document).ready(function() {
+	$('#target').css({
+		backgroundColor: "red"
+	})
+});
+
+
 // EXERCISE: Change Parent
 
 // Change the text in the span, a child of "#target"
 // Hint: you can use .text
+
+$(document).ready(function() {
+	$('div#target').find("span").text("Changed :)");
+});
+
 
 // EXERCISE: Create Clone
 
